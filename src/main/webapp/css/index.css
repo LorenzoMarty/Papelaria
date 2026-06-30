@@ -1,0 +1,54 @@
+/* Pagina de login — layout de centralizacao e box */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.box {
+    background: #ffffff;
+    padding: 36px;
+    border-radius: 10px;
+    border: 1px solid #cdeeee;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
+    text-align: center;
+    width: 100%;
+    max-width: 340px;
+}
+
+.box h2 {
+    margin: 0 0 6px 0;
+    color: #0d8f8f;
+    font-size: 1.5rem;
+}
+
+.subtitulo {
+    margin: 0 0 20px 0;
+    color: #4d6d6d;
+    font-size: 13px;
+}
+
+.box button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.box > a {
+    display: block;
+    margin-top: 16px;
+    color: #0d8f8f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.box > a:hover {
+    text-decoration: underline;
+}
